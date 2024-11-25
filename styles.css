@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  background: url('./assets/road-bg.png');
+  background-repeat: no-repeat;
+}
+
+#blue-car, #green-car, #pink-car, #red-car, #yellow-car, #barrier {
+  display: none;
+}
+
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}

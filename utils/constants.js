@@ -1,0 +1,4 @@
+const GAME_WIDTH = 850, GAME_HEIGHT = 600
+const FPS = 60
+
+export { GAME_HEIGHT, GAME_WIDTH, FPS }
