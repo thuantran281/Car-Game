@@ -1,20 +1,19 @@
-class Car {
+export class Car {
   constructor(game) {
     this.game = game
-    this.carWidth = 50
-    this.carHeight = 100
+    // this.carWidth = ...
+    // this.carHeight = ...
     this.width = this.carWidth
     this.height = this.carHeight
-    this.x = 200
-    this.y = 200
+    // this.x = ...
+    // this.y = ...
     this.speedX = 0
     this.speedY = 0
-    this.maxSpeed = 4
-    this.image = document.getElementById('car')
+    // this.maxSpeed = ...
+    this.image = document.getElementById('blue-car')
   }
 
   draw(context) {
-    // context.fillRect(this.x, this.y, this.width, this.height)
     context.drawImage(this.image, 0, 0, this.image.width, this.image.height, this.x, this.y, this.width, this.height)
   }
 
@@ -39,11 +38,16 @@ class Car {
     this.x += this.speedX
     this.y += this.speedY
 
-    // set limit to prevent the car from going on the pavement
-    if (this.x < 140) {
-      this.x = 140
-    } else if (this.x > 705 - this.width) {
-      this.x = 705 - this.width
+    // if (this.x < 140) {
+    //   this.x = 140
+    // } else if (this.x > 705 - this.width) {
+    //   this.x = 705 - this.width
+    // }
+
+    if (this.x < 0) {
+      this.x = 0
+    } else if (this.x > this.game.width - this.width) {
+      this.x = this.game.width - this.width
     }
 
     if (this.y < this.game.topMargin) {

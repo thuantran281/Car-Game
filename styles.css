@@ -5,8 +5,8 @@
 }
 
 canvas {
-  background: url('./assets/road-bg.png');
-  background-repeat: no-repeat;
+  background: url('./assets/road-bg.png') no-repeat center top;
+  background-size: cover;
 }
 
 #blue-car, #green-car, #pink-car, #red-car, #yellow-car, #barrier {
