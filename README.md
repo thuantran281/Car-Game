@@ -18,7 +18,7 @@ HTML, CSS, and JavaScript
   then navigate to http://localhost:8080
 
 # Further improvement
-The game is still missing some of the critical parts, such as scores, levels, speed. The project will be enhanced with score HUD, level, and speed corresponding as the higher the level is, the faster the car and obstacles are, and the more difficult the game is. Furthermore, sounds and effects will be added to the objects. Finally, responsive will be implemented later on.
+The game is still missing some of the critical parts, such as scores, levels, speed. The game is missing the starting screen, guide to play, and game over screen. In addition, the project will be enhanced with score HUD, level, and speed corresponding as the higher the level is, the faster the car and obstacles are, and the more difficult the game is. Furthermore, sounds and effects will be added to the objects. Finally, responsive will be implemented later on.
 
 # Acknowledgement
 - Inspired by classic 2D car games
